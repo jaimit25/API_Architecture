@@ -37,4 +37,5 @@ const deleteUser = (req, res) => {
 module.exports = { getUsers, postUser, updateUser,deleteUser };
 
 
-//update to git branch RoutersAndControllers
+//update to git branch RoutersAndControllers - update 29june 2022
+// git push --set-upstream origin RoutersAndControllers
