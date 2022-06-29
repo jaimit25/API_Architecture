@@ -4,5 +4,5 @@
 -and click on connect.
 
 
-#In collection we will have to add Database name(ie. Mongo-Atlas-API) and then collection name
+#In collection we will have to add Database name(ie. Rest-services(Main DB) -> Mongo-Atlas-API(internal DB)) and then collection name
 ie. users for this project
