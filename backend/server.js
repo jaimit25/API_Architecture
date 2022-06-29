@@ -3,9 +3,17 @@
 //nodemon server.js
 const express = require('express');
 const app = express();
+const colors = require('colors');
+const connectDB = require('./config/db');
 
 const dotenv = require('dotenv').config();//configure dotenv to load the .env file
 const port = process.env.PORT || 3000;
+
+
+//IT WILL CONNECT to MONGODB
+connectDB();
+
+
 app.use(express.json(), express.urlencoded({ extended: true })); //configure express to use json and urlencoded for postman to check the data is null or not from the x-www.form-urlencoded
 // key value pair
 // key: value ie.  name : jaimit
