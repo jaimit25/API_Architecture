@@ -35,3 +35,8 @@ const deleteUser = (req, res) => {
 };
 
 module.exports = { getUsers, postUser, updateUser,deleteUser };
+
+
+
+
+// git checkout -b DataHandling : to shift to DataHandling branch
